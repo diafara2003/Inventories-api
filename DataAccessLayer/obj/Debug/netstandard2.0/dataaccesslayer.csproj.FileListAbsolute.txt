@@ -1,0 +1,9 @@
+C:\PROYECTO\API\dataaccesslayer\bin\Debug\netstandard2.0\dataaccesslayer.deps.json
+C:\PROYECTO\API\dataaccesslayer\bin\Debug\netstandard2.0\dataaccesslayer.dll
+C:\PROYECTO\API\dataaccesslayer\bin\Debug\netstandard2.0\dataaccesslayer.pdb
+C:\PROYECTO\API\dataaccesslayer\obj\Debug\netstandard2.0\dataaccesslayer.csprojAssemblyReference.cache
+C:\PROYECTO\API\dataaccesslayer\obj\Debug\netstandard2.0\dataaccesslayer.csproj.CoreCompileInputs.cache
+C:\PROYECTO\API\dataaccesslayer\obj\Debug\netstandard2.0\dataaccesslayer.AssemblyInfoInputs.cache
+C:\PROYECTO\API\dataaccesslayer\obj\Debug\netstandard2.0\dataaccesslayer.AssemblyInfo.cs
+C:\PROYECTO\API\dataaccesslayer\obj\Debug\netstandard2.0\dataaccesslayer.dll
+C:\PROYECTO\API\dataaccesslayer\obj\Debug\netstandard2.0\dataaccesslayer.pdb

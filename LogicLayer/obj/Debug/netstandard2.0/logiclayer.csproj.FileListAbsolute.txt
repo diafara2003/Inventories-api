@@ -1,0 +1,12 @@
+C:\PROYECTO\API\logiclayer\bin\Debug\netstandard2.0\logiclayer.deps.json
+C:\PROYECTO\API\logiclayer\bin\Debug\netstandard2.0\logiclayer.dll
+C:\PROYECTO\API\logiclayer\bin\Debug\netstandard2.0\logiclayer.pdb
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.csprojAssemblyReference.cache
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.csproj.CoreCompileInputs.cache
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.AssemblyInfoInputs.cache
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.AssemblyInfo.cs
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.dll
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.pdb
+C:\PROYECTO\API\logiclayer\bin\Debug\netstandard2.0\dataaccesslayer.dll
+C:\PROYECTO\API\logiclayer\bin\Debug\netstandard2.0\dataaccesslayer.pdb
+C:\PROYECTO\API\logiclayer\obj\Debug\netstandard2.0\logiclayer.csproj.CopyComplete

@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj": {}
+  },
+  "projects": {
+    "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
+        "projectName": "dataaccesslayer",
+        "projectPath": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
+        "packagesPath": "C:\\Users\\jhonnatan.urueña\\.nuget\\packages\\",
+        "outputPath": "c:\\PROYECTO\\API\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jhonnatan.urueña\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.data.sqlclient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "c:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj",
+        "projectName": "logiclayer",
+        "projectPath": "c:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj",
+        "packagesPath": "C:\\Users\\jhonnatan.urueña\\.nuget\\packages\\",
+        "outputPath": "c:\\PROYECTO\\API\\LogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jhonnatan.urueña\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {
+                "projectPath": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "system.data.sqlclient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "system.linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
