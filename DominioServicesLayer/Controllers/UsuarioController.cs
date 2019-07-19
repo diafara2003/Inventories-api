@@ -23,7 +23,7 @@ namespace DominioServicesLayer.Controllers {
             if (string.IsNullOrEmpty (user) || string.IsNullOrEmpty (password)) {
                 return BadRequest ("los parametros de user y password son obligatorios");
             } else {
-                return Ok (new UsuarioBI ().GerUser (password, user));
+                return Ok (new UsuarioBI ().GerUser (user,password));
             }
 
         }

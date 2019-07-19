@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace DataAccessLayer {
 
     public class EntradaDTO {
@@ -10,5 +13,7 @@ namespace DataAccessLayer {
         public int? EnUsuarioModifica { get; set; }
         public DateTime? EnFechaModifica { get; set; }
         public string EnObservacion { get; set; }
+
+        public List<EntradaDetalleDTO> EntradaDetalle { get; set; }
     }
 }
