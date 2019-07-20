@@ -13,7 +13,8 @@ namespace LogicLayerBusiness {
             ConexionDTO cnn = new ConexionDTO ();
             cnn.procedimiento = "ConsultarDetalle";
             cnn.parametros.Add ("@idEntrada", id);
-
+ 
+ 
             var dt = new Conexion ().ConsultarSPDT (cnn);
 
             if (dt.Rows.Count > 0) {
