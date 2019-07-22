@@ -12150,11 +12150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTO\\API\\dominioserviceslayer\\DominioServicesLayer.csproj",
+      "projectUniqueName": "c:\\PROYECTO\\API\\DominioServicesLayer\\DominioServicesLayer.csproj",
       "projectName": "DominioServicesLayer",
-      "projectPath": "C:\\PROYECTO\\API\\dominioserviceslayer\\DominioServicesLayer.csproj",
+      "projectPath": "c:\\PROYECTO\\API\\DominioServicesLayer\\DominioServicesLayer.csproj",
       "packagesPath": "C:\\Users\\jhonnatan.urueña\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTO\\API\\dominioserviceslayer\\obj\\",
+      "outputPath": "c:\\PROYECTO\\API\\DominioServicesLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12171,11 +12171,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {
-              "projectPath": "C:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj"
+            "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {
+              "projectPath": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj"
             },
-            "C:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj": {
-              "projectPath": "C:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj"
+            "c:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj": {
+              "projectPath": "c:\\PROYECTO\\API\\LogicLayer\\logiclayer.csproj"
             }
           }
         }

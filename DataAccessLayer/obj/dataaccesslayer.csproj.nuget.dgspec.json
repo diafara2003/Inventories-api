@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {}
+    "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {}
   },
   "projects": {
-    "C:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {
+    "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
+        "projectUniqueName": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
         "projectName": "dataaccesslayer",
-        "projectPath": "C:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
+        "projectPath": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
         "packagesPath": "C:\\Users\\jhonnatan.urueña\\.nuget\\packages\\",
-        "outputPath": "C:\\PROYECTO\\API\\DataAccessLayer\\obj\\",
+        "outputPath": "c:\\PROYECTO\\API\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
