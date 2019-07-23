@@ -1771,19 +1771,6 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools.DotNet/2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.0.7",
-          "Newtonsoft.Json": "10.0.1"
-        },
-        "compile": {
-          "lib/netcoreapp2.0/dotnet-ef.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/dotnet-ef.dll": {}
-        }
-      },
       "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -6053,25 +6040,6 @@
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Tools.DotNet/2.0.3": {
-      "sha512": "iUxWokvgVsFR9qMbvvsXSlq/vcnl+DvPpdDlpPp17wh6XyZyh372AB0xnf6CR0frqPa0xpVQLdvX5xpZvVlKLQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.tools.dotnet/2.0.3",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp2.0/dotnet-ef.dll",
-        "lib/netcoreapp2.0/dotnet-ef.runtimeconfig.json",
-        "microsoft.entityframeworkcore.tools.dotnet.2.0.3.nupkg.sha512",
-        "microsoft.entityframeworkcore.tools.dotnet.nuspec",
-        "prefercliruntime",
-        "tools/net461/ef.exe",
-        "tools/net461/ef.x86.exe",
-        "tools/netcoreapp2.0/ef.dll",
-        "tools/netcoreapp2.0/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.2.0": {
@@ -12171,7 +12139,6 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.EntityFrameworkCore.Tools.DotNet >= 2.0.3",
       "Microsoft.NETCore.App >= 2.2.0",
       "dataaccesslayer >= 1.0.0",
       "logiclayer >= 1.0.0"
@@ -12184,11 +12151,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
+      "projectUniqueName": "c:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
       "projectName": "DominioServicesLayer",
-      "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
+      "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
       "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\obj\\",
+      "outputPath": "c:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12207,11 +12174,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
-              "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj"
+            "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
+              "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj"
             },
-            "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj": {
-              "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj"
+            "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj": {
+              "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj"
             }
           }
         }
@@ -12235,10 +12202,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.2.0, )"
-          },
-          "Microsoft.EntityFrameworkCore.Tools.DotNet": {
-            "target": "Package",
-            "version": "[2.0.3, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    
     <PackageReference Include="System.data.sqlclient" Version="4.6.1" />
   </ItemGroup>
 

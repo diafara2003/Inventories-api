@@ -76,6 +76,8 @@ namespace LogicLayerBusiness {
                 objresponse.codigo = 1;
                 objresponse.mensaje = string.Empty;
 
+                new Conexion ().ConsultarSPDT (cnn);
+
             } catch (System.Exception e) {
 
                 objresponse.codigo = -1;
@@ -89,7 +91,7 @@ namespace LogicLayerBusiness {
 
             ResponseDTO objresponse = new ResponseDTO ();
 
-            objresponse.codigo =  modelo.EnId;
+            objresponse.codigo = modelo.EnId;
             objresponse.mensaje = string.Empty;
 
             ConexionDTO cnn = new ConexionDTO ();
@@ -101,6 +103,14 @@ namespace LogicLayerBusiness {
 
             try {
                 var dt = new Conexion ().ConsultarSPDT (cnn);
+
+                if (modelo.EntradaDetalle != null) {
+                    foreach (var item in modelo.EntradaDetalle) {
+                        item.EndDetEntradaId = modelo.EnId;
+                        new EntradaDetalleBI ().Insert (item);
+                    }
+                }
+
             } catch (System.Exception e) {
                 objresponse.codigo = -1;
                 objresponse.mensaje = e.Message;
@@ -131,7 +141,7 @@ namespace LogicLayerBusiness {
                 if (modelo.EntradaDetalle != null) {
                     foreach (var item in modelo.EntradaDetalle) {
                         item.EndDetEntradaId = objresponse.codigo;
-                        new EntradaDetalleBI ().Insert(item);                        
+                        new EntradaDetalleBI ().Insert (item);
                     }
                 }
 
