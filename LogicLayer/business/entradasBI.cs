@@ -72,7 +72,6 @@ namespace LogicLayerBusiness {
                 cnn.procedimiento = "ActualizarEntradaEstado";
                 cnn.parametros.Add ("EnId", modelo.Identrada);
                 cnn.parametros.Add ("EnEstado", modelo.estado);
-                
 
                 objresponse.codigo = 1;
                 objresponse.mensaje = string.Empty;
@@ -89,15 +88,16 @@ namespace LogicLayerBusiness {
         public ResponseDTO Update (EntradaDTO modelo) {
 
             ResponseDTO objresponse = new ResponseDTO ();
+
+            objresponse.codigo =  modelo.EnId;
+            objresponse.mensaje = string.Empty;
+
             ConexionDTO cnn = new ConexionDTO ();
             cnn.procedimiento = "ActualizarEntrada";
             cnn.parametros.Add ("EnId", modelo.EnId);
             cnn.parametros.Add ("EnProveedor", modelo.EnProveedor);
             cnn.parametros.Add ("EnObservacion", modelo.EnObservacion);
             cnn.parametros.Add ("EnUsuarioModifica", modelo.EnUsuarioModifica);
-
-            objresponse.codigo = 1;
-            objresponse.mensaje = string.Empty;
 
             try {
                 var dt = new Conexion ().ConsultarSPDT (cnn);
@@ -112,10 +112,34 @@ namespace LogicLayerBusiness {
         }
 
         public ResponseDTO Insert (EntradaDTO modelo) {
-            modelo.EnFecha = System.DateTime.Now;
+
             ResponseDTO objresponse = new ResponseDTO ();
-            objresponse.codigo = 1;
-            objresponse.mensaje = "Se creo la entrada correctamente";
+            ConexionDTO cnn = new ConexionDTO ();
+
+            objresponse.mensaje = "Se creó la entrada correctamente";
+
+            try {
+                cnn.procedimiento = "InsertarEntrada";
+                cnn.parametros.Add ("EnProveedor", modelo.EnProveedor);
+                cnn.parametros.Add ("EnUsuarioCrea", modelo.EnUsuarioCrea);
+                cnn.parametros.Add ("EnObservacion", modelo.EnObservacion);
+
+                var dt = new Conexion ().ConsultarSPDT (cnn);
+
+                objresponse.codigo = (int) dt.Rows[0]["id"];
+
+                if (modelo.EntradaDetalle != null) {
+                    foreach (var item in modelo.EntradaDetalle) {
+                        item.EndDetEntradaId = objresponse.codigo;
+                        new EntradaDetalleBI ().Insert(item);                        
+                    }
+                }
+
+            } catch (System.Exception e) {
+
+                objresponse.codigo = -1;
+                objresponse.mensaje = e.Message;
+            }
 
             return objresponse;
         }

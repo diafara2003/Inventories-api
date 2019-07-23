@@ -827,11 +827,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
+      "projectUniqueName": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
       "projectName": "dataaccesslayer",
-      "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
+      "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
       "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\obj\\",
+      "outputPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -879,5 +879,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\obj\\dataaccesslayer.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
