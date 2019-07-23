@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {}
+    "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {}
   },
   "projects": {
-    "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
+    "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
+        "projectUniqueName": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
         "projectName": "dataaccesslayer",
-        "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
+        "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
         "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-        "outputPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
