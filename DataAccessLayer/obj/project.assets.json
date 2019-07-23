@@ -821,30 +821,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andres\\.nuget\\packages\\": {},
+    "C:\\Users\\jhonnatan.urueña\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
+      "projectUniqueName": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
       "projectName": "dataaccesslayer",
-      "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj",
-      "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\obj\\",
+      "projectPath": "c:\\PROYECTO\\API\\DataAccessLayer\\dataaccesslayer.csproj",
+      "packagesPath": "C:\\Users\\jhonnatan.urueña\\.nuget\\packages\\",
+      "outputPath": "c:\\PROYECTO\\API\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\jhonnatan.urueña\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
