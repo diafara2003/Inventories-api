@@ -379,7 +379,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "System.data.sqlclient": "4.6.1"
+          "System.Collections": "4.3.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Reflection": "4.3.0",
+          "system.data.sqlclient": "4.6.1",
+          "system.linq": "4.3.0"
         },
         "compile": {
           "bin/placeholder/dataaccesslayer.dll": {}
@@ -1892,11 +1896,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj",
+      "projectUniqueName": "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj",
       "projectName": "logiclayer",
-      "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj",
+      "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj",
       "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\obj\\",
+      "outputPath": "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1915,8 +1919,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
-              "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj"
+            "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
+              "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj"
             }
           }
         }

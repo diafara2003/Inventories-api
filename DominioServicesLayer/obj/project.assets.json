@@ -4452,7 +4452,11 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "System.data.sqlclient": "4.6.1"
+          "System.Collections": "4.3.0",
+          "System.Data.DataSetExtensions": "4.5.0",
+          "System.Reflection": "4.3.0",
+          "system.data.sqlclient": "4.6.1",
+          "system.linq": "4.3.0"
         },
         "compile": {
           "bin/placeholder/dataaccesslayer.dll": {}
@@ -12151,11 +12155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
+      "projectUniqueName": "C:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
       "projectName": "DominioServicesLayer",
-      "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
+      "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\DominioServicesLayer.csproj",
       "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "c:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\obj\\",
+      "outputPath": "C:\\PROYECTO\\API\\Inventories-api\\DominioServicesLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12174,11 +12178,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
-              "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj"
+            "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj": {
+              "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\DataAccessLayer\\dataaccesslayer.csproj"
             },
-            "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj": {
-              "projectPath": "c:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj"
+            "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj": {
+              "projectPath": "C:\\PROYECTO\\API\\Inventories-api\\LogicLayer\\logiclayer.csproj"
             }
           }
         }

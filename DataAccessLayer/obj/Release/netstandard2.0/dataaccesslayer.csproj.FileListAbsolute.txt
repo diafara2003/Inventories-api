@@ -7,3 +7,12 @@ C:\PROYECTO\API\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.Assem
 C:\PROYECTO\API\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.AssemblyInfo.cs
 C:\PROYECTO\API\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.dll
 C:\PROYECTO\API\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.pdb
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\bin\Release\netstandard2.0\dataaccesslayer.deps.json
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\bin\Release\netstandard2.0\dataaccesslayer.dll
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\bin\Release\netstandard2.0\dataaccesslayer.pdb
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.csprojAssemblyReference.cache
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.csproj.CoreCompileInputs.cache
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.AssemblyInfoInputs.cache
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.AssemblyInfo.cs
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.dll
+C:\PROYECTO\API\Inventories-api\DataAccessLayer\obj\Release\netstandard2.0\dataaccesslayer.pdb
