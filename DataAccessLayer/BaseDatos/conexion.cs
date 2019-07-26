@@ -8,7 +8,10 @@ namespace DataAccessLayer {
 
          SqlConnection DBConexion () {
 
-            SqlConnection con = new SqlConnection (@"Data Source=DESKTOP-CUOUMN7\SQLEXPRESS;Initial Catalog=inventories;Integrated Security=true");
+            SqlConnection con = new SqlConnection (@"Data Source=DESKTOP-CUOUMN7\SQLEXPRESS;Initial Catalog=inventories;User Id=democore;Password=sinco123");
+            //@"Data Source=DESKTOP-CUOUMN7\SQLEXPRESS;Initial Catalog=inventories;User Id=democore;Password=sinco123"
+            //@"Data Source=DESKTOP-CUOUMN7\SQLEXPRESS;Initial Catalog=inventories;User Id=democore;Password=sinco123"
+            
             con.Open ();
             return con;
         }

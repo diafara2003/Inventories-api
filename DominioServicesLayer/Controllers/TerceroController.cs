@@ -39,8 +39,17 @@ namespace DominioServicesLayer.Controllers
         [HttpPost]
         public ActionResult<ResponseDTO> Post(TerceroDTO request)
         {
+            if (request.TerId > 0)
+            {
+                //edicion
+                return Ok(new TerceroBI().Crud(request, 2));
+            }
+            else
+            {
+                //insert
+                return Ok(new TerceroBI().Crud(request, 1));
+            }
 
-            return Ok(new TerceroBI().Crud(request, 1));
         }
 
         [HttpPut]
