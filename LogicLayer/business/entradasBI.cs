@@ -26,7 +26,7 @@ namespace LogicLayerBusiness
 
                 foreach (EntradaDTO item in objResponse)
                 {
-                    item.terceroEntrada=new TerceroBI().GetXId(item.EnProveedor);
+                    item.terceroEntrada = new TerceroBI().GetXId(item.EnProveedor);
                 }
 
             }
@@ -48,6 +48,11 @@ namespace LogicLayerBusiness
             {
 
                 objResponse = Tool.DataTableToList<EntradaDTO>(dt);
+
+                foreach (EntradaDTO item in objResponse)
+                {
+                    item.terceroEntrada = new TerceroBI().GetXId(item.EnProveedor);
+                }
 
             }
 
@@ -76,6 +81,34 @@ namespace LogicLayerBusiness
             return objResponse;
         }
 
+
+        public ImpresionEntradaDTO Impresion(int id)
+        {
+
+            ImpresionEntradaDTO objresponse = new ImpresionEntradaDTO();
+
+            try
+            {
+                ConexionDTO cnn = new ConexionDTO();
+                cnn.procedimiento = "ImprimirEntrada";
+                cnn.parametros.Add("idEntrada", id);
+
+
+                var ds = new Conexion().ConsultarSPDS(cnn);
+
+                objresponse = Tool.DataTableToList<ImpresionEntradaDTO>(ds.Tables[0]).FirstOrDefault();
+                objresponse.detalles = Tool.DataTableToList<ImpresionEntradaDetalleDTO>(ds.Tables[1]);
+
+
+            }
+            catch (System.Exception e)
+            {
+
+                throw e;
+            }
+
+            return objresponse;
+        }
         public ResponseDTO CambiarEstado(AprobarEntradaDTO modelo)
         {
 

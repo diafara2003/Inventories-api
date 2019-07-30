@@ -24,6 +24,22 @@ namespace DominioServicesLayer.Controllers {
             return Ok (new EntradaBI ().GetXId (id));
         }
 
+
+         [HttpGet ("impresion/{id}")]
+        public ActionResult<ImpresionEntradaDTO> GetImpresion (int id) {
+
+            try
+            {
+            return Ok (new EntradaBI ().Impresion (id));    
+            }
+            catch (System.Exception e)
+            {
+                
+               return BadRequest(e.Message);
+            }
+            
+        }
+
         [HttpGet ("Estado/{estado}")]
         public ActionResult<IEnumerable<EntradaDTO>> GetEntriesState (int estado) {
             return Ok (new EntradaBI ().GetState (estado));
